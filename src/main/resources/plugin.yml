@@ -1,0 +1,11 @@
+name: WardrobeWarps
+version: '${project.version}'
+main: rocks.learnercouncil.wardrobewarps.WardrobeWarps
+api-version: 1.20
+authors: [ h2ofiremaster ]
+description: A plugin implementation of Murder Mystery's closets and passages.
+commands:
+  closet:
+    permission: wardrobewarps.commands.closet
+  passage:
+    permission: wardrobewarps.commands.passage
